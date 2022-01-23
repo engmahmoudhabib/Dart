@@ -1,4 +1,6 @@
-class Animal {
+import 'abstraction.dart';
+
+class Animal implements AnimalRepositoryInterface {
   /// fields of the class
 
   String name;
@@ -20,4 +22,12 @@ class Animal {
   void whoICall() => print('you\'re calling me from Animal class');
 
   void chase(Animal animal) => print('i\'m chasing ' + animal.name);
+
+  @override
+  List<Animal> animalsList;
+
+  @override
+  List<Animal> getAnimalList() {
+    throw UnimplementedError();
+  }
 }

@@ -7,11 +7,13 @@ import 'animal.dart';
 
 /// to decleare abstract methods we should mark the class as abstract
 /// abstract class is like a contract you promise yourself to implement it later inside the app.
+/// we don't have interfaces in dart so to create one we need to create abstract class
+/// we can't create oblects from abstract classes
 
-abstract class UserRepositoryInterface {
+abstract class AnimalRepositoryInterface {
   List<Animal> animalsList;
 
   /// these methods are abstract because we are inside abstract class
-  void chase();
+
   List<Animal> getAnimalList();
 }
