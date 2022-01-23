@@ -1,6 +1,6 @@
 import 'abstraction.dart';
 
-class Animal implements AnimalRepositoryInterface {
+class Animal implements AnimalRepositoryInterface, A {
   /// fields of the class
 
   String name;
@@ -29,5 +29,12 @@ class Animal implements AnimalRepositoryInterface {
   @override
   List<Animal> getAnimalList() {
     throw UnimplementedError();
+  }
+
+
+/// implementing of external methods
+  @override
+  void fromA() {
+    print('this one is from A class');
   }
 }
