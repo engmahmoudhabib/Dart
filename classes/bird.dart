@@ -1,5 +1,7 @@
 import 'animal.dart';
 
+/// inheretance means to share behaviour between classes
+
 class Bird extends Animal {
   final String name;
   final double size;
