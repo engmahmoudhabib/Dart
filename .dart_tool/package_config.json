@@ -317,10 +317,10 @@
       "name": "dart_training",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.6"
     }
   ],
-  "generated": "2022-01-14T04:40:26.658437Z",
+  "generated": "2022-01-25T09:08:18.172999Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }
